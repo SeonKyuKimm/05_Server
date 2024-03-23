@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <publish-info>
+<<<<<<< HEAD
   <server id="Servlet Home Server" path="publish0.dat"/>
+=======
+  <server id="Servlet Server" path="publish0.dat"/>
+  <server id="Tomcat v10.1 Server at localhost" path="publish2.dat"/>
+  <server id="JSP Project Server" path="publish1.dat"/>
+>>>>>>> refs/remotes/origin/main
 </publish-info>

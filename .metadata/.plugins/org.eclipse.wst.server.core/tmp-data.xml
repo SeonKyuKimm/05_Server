@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <temp-directories>
+<<<<<<< HEAD
   <temp-directory age="0" key="Servlet Home Server" path="tmp0" recycle="false"/>
+=======
+  <temp-directory age="0" key="JSP Project Server" path="tmp1" recycle="false"/>
+  <temp-directory age="0" key="Servlet Server" path="tmp0" recycle="false"/>
+  <temp-directory age="0" key="Tomcat v10.1 Server at localhost" path="tmp2" recycle="false"/>
+>>>>>>> refs/remotes/origin/main
 </temp-directories>
