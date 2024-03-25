@@ -1,8 +1,9 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=refs/remotes/origin/main
+IMPORT_FILES_AND_FOLDERS_RELATIVE=true
+IMPORT_FILES_AND_FOLDERS_TYPE=23,1
 eclipse.preferences.version=1
-<<<<<<< HEAD
-platformState=1708702673217
-=======
-platformState=1706751371318
->>>>>>> refs/remotes/origin/main
+platformState=1706751371346
 quickStart=false
 tipsAndTricks=true
