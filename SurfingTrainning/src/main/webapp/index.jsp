@@ -20,11 +20,13 @@
 			<c:when>
 			
 				<h1>Surfing Trainning</h1>
-				<h1> Login </h1>
-				<br>
+			
+				
+				
 				<h1>────────</h1>
 				
 				<form action="/login" method="post" class="login-form">
+				<h1> ＬＯＧ Ι Ｎ </h1>
 					<div>
 						<p>ID</p>
 						<input type="text" name ="inputId" autocomplete="off">
@@ -33,7 +35,7 @@
 						<p>Password</p>
 						<input type="password">
 					</div>
-				
+					<br>
 					<button>CONNECT</button>
 				
 				
@@ -41,7 +43,7 @@
 			
 			
 			</c:when>
-			<%-- 로그인을 했다면 페이지 : 현재 접속한 사람의 연습 리스트--%>
+			<%-- 로그인을 했다면 ? 로그인한 사람들의 페이지--%>
 		
 		
 		</c:choose>

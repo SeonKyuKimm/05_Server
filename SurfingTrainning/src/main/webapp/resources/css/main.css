@@ -25,6 +25,7 @@ main{
 
 main h1{
 	margin-bottom : 20px;
+	text-align : center;
 }
 
 table button {
@@ -67,4 +68,9 @@ table{
     height: 40px;
     cursor: pointer;
     margin-bottom: 20px;
+}
+input {
+    height: 30px;
+    font-size: 15px;
+    border-radius : 500px;
 }
