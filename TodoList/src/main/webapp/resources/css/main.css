@@ -146,8 +146,8 @@ input {
 	font-size: 18px;
 }
 
-.confirm{ color : green; }
-.error{ color : red; }
+.confirm{ color : rgb(112, 189, 112); }
+.error{ color : rgb(219, 105, 105); }
 
 #idMsg {
     font-size: 11px;
