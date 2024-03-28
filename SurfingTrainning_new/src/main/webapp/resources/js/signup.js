@@ -25,8 +25,8 @@ inputId.addEventListener("keyup", function() {
 });
 
 // 비밀번호 유효성 검사
-const inputPw = docunemt.getElementById("inputPw");
-const inputPwConfirm = docunemt.getElementById("inputPw2");
+const inputPw = document.getElementById("inputPw");
+const inputPwConfirm = document.getElementById("inputPw2");
 
 inputPwConfirm.addEventListener("keyup", function(){
 
@@ -77,7 +77,7 @@ inputPwConfirm.addEventListener("keyup", function(){
 });
 
 // 닉네임 검사
-const inputName = docum.getElementById("inputName");
+const inputName = document.getElementById("inputName");
 
 inputName.addEventListener("change", function(){
 

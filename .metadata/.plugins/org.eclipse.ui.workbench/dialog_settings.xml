@@ -6,7 +6,7 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
-			<item value="org.eclipse.wst.server.ui.ServersView"/>
+			<item value="org.eclipse.jdt.ui.PackageExplorer"/>
 		</list>
 		<list key="orderedProviders">
 			<item value="org.eclipse.e4.ui.parts"/>
@@ -15,28 +15,7 @@
 			<item value="1"/>
 		</list>
 		<list key="textArray">
-			<item value="server"/>
+			<item value="package"/>
 		</list>
-	</section>
-	<section name="WorkbenchPreferenceDialog">
-		<item key="DIALOG_X_ORIGIN" value="158"/>
-		<item key="DIALOG_Y_ORIGIN" value="0"/>
-		<item key="DIALOG_WIDTH" value="816"/>
-		<item key="DIALOG_HEIGHT" value="1040"/>
-		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
-	</section>
-	<section name="NewWizardAction">
-<<<<<<< HEAD
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jst.jsp.ui.internal.wizard.NewJSPWizard"/>
-=======
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
->>>>>>> refs/remotes/origin/main
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.wst.web.ui"/>
-		</list>
-	</section>
-	<section name="ImportExportAction">
-	</section>
-	<section name="FileSystemImportWizard">
 	</section>
 </section>
