@@ -11,11 +11,21 @@
     <fullyQualifiedTypeName name="edu.kh.jsp.common.JDBCTemplate"/>
     <fullyQualifiedTypeName name="edu.kh.jsp.student.model.service.StudentService"/>
     <fullyQualifiedTypeName name="edu.kh.jsp.student.model.dto.Student"/>
+<<<<<<< HEAD
+=======
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+>>>>>>> refs/remotes/origin/main
     <fullyQualifiedTypeName name="edu.kh.todoList.member.model.dao.MemberDao"/>
     <fullyQualifiedTypeName name="edu.kh.todoList.todo.model.dao.TodoDAO"/>
     <fullyQualifiedTypeName name="edu.kh.todoList.common.JDBCTemplate"/>
     <fullyQualifiedTypeName name="java.nio.file.spi.FileSystemProvider"/>
     <fullyQualifiedTypeName name="edu.kh.todoList.member.model.service.MemberService"/>
+<<<<<<< HEAD
+=======
+    <fullyQualifiedTypeName name="java.util.List"/>
+>>>>>>> refs/remotes/origin/main
     <fullyQualifiedTypeName name="edu.kh.todoList.todo.model.service.TodoService"/>
     <fullyQualifiedTypeName name="edu.kh.todoList.member.model.dto.Member"/>
     <fullyQualifiedTypeName name="edu.kh.todoList.todo.model.dto.Todo"/>
@@ -47,4 +57,8 @@
     <fullyQualifiedTypeName name="edu.kh.surf.member.model.service.MemberService"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
 </qualifiedTypeNameHistroy>

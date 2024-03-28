@@ -24,9 +24,14 @@ main{
 }
 
 main h1{
+<<<<<<< HEAD:SurfingTrainning/src/main/webapp/resources/css/train-main.css
 	flex-direction : column;
 	align-items : center;
 	
+=======
+	margin-bottom : 20px;
+	text-align : center;
+>>>>>>> refs/remotes/origin/main:SurfingTrainning/src/main/webapp/resources/css/main.css
 }
 
 table button {
@@ -70,6 +75,7 @@ table{
     cursor: pointer;
     margin-bottom: 20px;
 }
+<<<<<<< HEAD:SurfingTrainning/src/main/webapp/resources/css/train-main.css
 
 input{
 	font-size : 18px;
@@ -80,4 +86,10 @@ input{
 button{
 	border-radius : 10px;
 	
+=======
+input {
+    height: 30px;
+    font-size: 15px;
+    border-radius : 500px;
+>>>>>>> refs/remotes/origin/main:SurfingTrainning/src/main/webapp/resources/css/main.css
 }
