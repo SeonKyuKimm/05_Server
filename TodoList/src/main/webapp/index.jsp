@@ -58,26 +58,28 @@
 					
 					<%-- 투두리스트가 있다면--%>
 					<c:otherwise>
+						<form>
 						<table>
 							<c:forEach var="todo" items="${todoList}" >
 								<tr>
 									<td>${todo.todoTitle}</td>
 									<td>(${todo.todoMemo})</td>
 									<td>${todo.todoDate}</td>
+									
 									<td><a href="/update?todoNo=${todo.todoNo}" class="update-btn">수정</a></td>
 									<td><a href="/delete?todoNo=${todo.todoNo}" 
 										onclick="return confirm('정말 삭제하시겠습니까 ?');"
-									class="delete-btn">삭제</a></td>
+																				class="delete-btn">삭제</a></td>
 								</tr>
 							</c:forEach>
-						
+							</form>
 						</table>
 					</c:otherwise>
 				</c:choose>
-				<div class="button-div">
-					<a href="/insert" class="insert-btn">등록하기</a>
-					<a href="/logout" class="logout-btn">로그아웃</a>
-				</div>
+					<div class="button-div">
+						<a href="/insert" class="insert-btn">등록하기</a>
+						<a href="/logout" class="logout-btn">로그아웃</a>
+					</div>
 				
 				
 				

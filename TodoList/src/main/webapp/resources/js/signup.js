@@ -8,7 +8,7 @@ const checkObj = {
     "inputPwConrifm" : false, // 비번확인
     "inputName" : false // 닉네임
 };
-
+//todo 
 // 아이디 유효성 검사
 const inputId = document.getElementById("inputId");
 
@@ -29,7 +29,7 @@ inputId.addEventListener("change", function() {
 
 });
 
-//
+// 비밀번호 유효성 검사
 const inputPw = document.getElementById("inputPw");
 const inputPwConfirm = document.getElementById("inputPw2");
 
@@ -47,7 +47,7 @@ const pwMessage = document.getElementById("pwMessage");
 
 inputPw.addEventListener("keyup", function() {
 
-    if( (inputPw.value == inputPwConfirm.value) && inputPw.value.lengtu != 0 ){
+    if( (inputPw.value == inputPwConfirm.value) && inputPw.value.length != 0 ){
         pwMessage.innerText ="비밀번호 일치ㅎㅎ";
         pwMessage.classList.add("confirm");
         pwMessage.classList.remove("error");

@@ -24,6 +24,8 @@ main {
 
 main h1 {
     margin-bottom: 20px;
+    align-items: center;
+	
 }
 
 table button {
