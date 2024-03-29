@@ -1,4 +1,4 @@
-package edu.kh.surf.common;
+package edu.kh.surf.member.controller;
 
 import java.io.IOException;
 
@@ -26,7 +26,7 @@ public class SignupController extends HttpServlet {
 		
 		try {
 			
-			String inputId = req.getParameter("inputID");
+			String inputId = req.getParameter("inputId");
 			String inputPw = req.getParameter("inputPw");
 			String inputName = req.getParameter("inputName");
 			

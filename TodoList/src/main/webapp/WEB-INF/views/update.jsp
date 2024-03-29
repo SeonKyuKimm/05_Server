@@ -13,6 +13,7 @@
 		<h1>───────</h1>
 		
 		<form action="/update?todoNo=${todo.todoNo}" method="post">
+			
 			<p>제목</p>
 			<input type="text" name="title" value="${todo.todoTitle}" required>
 			<!-- post 에는 queryString을 사용하지 않는게 좋아서  -->

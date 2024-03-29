@@ -188,7 +188,7 @@ public class TodoDAO {
 				pstmt.setString(1, title);
 				pstmt.setString(2, memo);
 				pstmt.setString(3, todoNo);
-				pstmt.setInt(4, memberNo);
+				pstmt.setDouble(4, memberNo);
 				
 				result = pstmt.executeUpdate();
 				

@@ -13,11 +13,11 @@ import lombok.ToString;
 @ToString
 public class Member {
 
-	private int memberNo;
 	private String memberId;
 	private String memberPw;
 	private String memberNickname;
 	private String enrollDate;
 	private String memberDelFl;
 	private int memberGrade;
+	private int memberNo;
 }

@@ -31,8 +31,7 @@
  	
  	<entry key="update">
  		UPDATE TODO SET
- 		TODO_TITLE = ?,
- 		TODO_MEMO = ?
+ 		TODO_TITLE = ?, TODO_MEMO = ?
  		WHERE TODO_NO = ?
  		AND MEMBER_NO = ?
  	</entry>

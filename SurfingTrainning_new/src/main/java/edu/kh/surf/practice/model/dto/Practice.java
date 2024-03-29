@@ -19,4 +19,5 @@ public class Practice {
 	private String practiceDate;
 	private String practiceComplete;
 	private int memberNo;
+	
 }

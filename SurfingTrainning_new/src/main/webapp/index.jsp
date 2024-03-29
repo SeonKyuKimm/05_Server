@@ -10,7 +10,7 @@
 	
 	
 	<link rel="stylesheet" href="/resources/css/train-main.css">
-	<!-- <link rel="icon" href="/resources/fav/watersolid.png"> -->
+	<link rel="icon" href="/resources/fav/watersolid.png">
 	<title>Surfing Trainning</title>
 	
 </head>
@@ -59,16 +59,14 @@
 					<c:otherwise>
 						<form class="pr-form">
 							<table>
-								<c:forEach var="practice" items="${practiceList }">
+								<c:forEach var="practice" items="${practiceList}">
 									<tr>
 										<td>${practice.practiceTitle}</td>
 										<td>/ ${practice.practiceMemo} /</td>
 										<td>${practice.practiceDate}</td>
 										<br><br>
 										<td><a href="/update?practiceNo=${practice.practiceNo}">수정</a></td>
-										<td><a href="/delete?practiceNo=${practice.practiceNo}"
-											onclick="return conrifm('정말 삭제하실?');"
-											class="delete-btn">삭제</a></td>
+										<td><a href="/delete?practiceNo=${practice.practiceNo}" onclick="return conrifm('정말 삭제하실?');" class="delete-btn">삭제</a></td>
 									</tr>							
 								</c:forEach>
 							</table>

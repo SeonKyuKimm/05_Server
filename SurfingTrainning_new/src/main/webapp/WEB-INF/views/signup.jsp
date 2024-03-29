@@ -6,6 +6,7 @@
 	<meta charset="UTF-8">
 	<title>SignUp</title>
 	<link rel="stylesheet" href="/resources/css/train-main.css">
+	<link rel="icon" href="/resources/fav/watersolid.png">
 </head>
 <body>
 	<main>

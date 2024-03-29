@@ -13,7 +13,7 @@
 
 	<entry key="signup">
 		INSERT INTO "MEMBER"
-		VALUES(SEQ_MEMBER_NO1.NEXTVAL, ?,?,?, DEFAULT, DEFAULT)
+		VALUES(SEQ_MEMBER_NO1.NEXTVAL, ?, ?, ?, DEFAULT, DEFAULT, 44)
 	</entry>
 	
 </properties>

@@ -28,6 +28,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Workspace\surfProject"/>
 			<item value="C:\Program Files\workspace\05_Server"/>
 			<item value="C:\Workspace\05_Server"/>
 		</list>

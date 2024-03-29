@@ -25,7 +25,7 @@ public class MemberDAO {
 			
 			prop = new Properties();
 			
-			String filePath = MemberDAO.class.getResource("edu/kh/surf/sql/membersurf-sql.xml").getPath();
+			String filePath = MemberDAO.class.getResource("/edu/kh/surf/sql/membersurf-sql.xml").getPath();
 			
 			prop.loadFromXML(new FileInputStream(filePath));
 			

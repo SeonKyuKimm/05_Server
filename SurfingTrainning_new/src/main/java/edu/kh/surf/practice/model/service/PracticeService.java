@@ -27,4 +27,61 @@ public class PracticeService {
 		
 		return practiceList;
 	}
+
+
+	public int insert(String title, String memo, int memberNo) throws Exception {
+		
+		Connection conn = getConnection();
+		int result = dao.insert(conn, title,memo, memberNo);
+		
+		if( result >0 ) commit(conn);
+		else			rollback(conn);
+		
+		close(conn);
+		
+		return result;
+	}
+
+
+	public int delete(String practiceNo) throws Exception{
+		
+		Connection conn = getConnection();
+		int result = dao.delete(conn, practiceNo);
+		
+		if(result >0 ) commit(conn);
+		else		   rollback(conn);
+		
+		close(conn);
+		
+		return result;
+	}
+
+
+	public Practice selectOne(String practiceNo, int memberNo) throws Exception {
+		
+		Connection conn = getConnection();
+		
+		Practice practice = dao.selectOne(conn, practiceNo, memberNo);
+		
+		close(conn);
+		
+		return practice;
+	}
+
+
+	
+	public int update(String title, String memo, int memberNo, String practiceNo) throws Exception {
+		
+		Connection conn = getConnection();
+		
+		int result = dao.update(conn, title, memo, memberNo, practiceNo);
+		
+		
+		if (result > 0) commit(conn);
+		else			rollback(conn);
+		close(conn);
+		
+		
+		return result;
+	}
 }
